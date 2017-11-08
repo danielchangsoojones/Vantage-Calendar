@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		92A31DB91FB3BA5D0000AFAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DB81FB3BA5D0000AFAC /* AppDelegate.swift */; };
-		92A31DBB1FB3BA5D0000AFAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DBA1FB3BA5D0000AFAC /* ViewController.swift */; };
-		92A31DBE1FB3BA5D0000AFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A31DBC1FB3BA5D0000AFAC /* Main.storyboard */; };
 		92A31DC01FB3BA5D0000AFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A31DBF1FB3BA5D0000AFAC /* Assets.xcassets */; };
 		92A31DC31FB3BA5D0000AFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A31DC11FB3BA5D0000AFAC /* LaunchScreen.storyboard */; };
+		92A31DCC1FB3BB270000AFAC /* SchedulingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DCB1FB3BB270000AFAC /* SchedulingViewController.swift */; };
+		92A31DCF1FB3BB440000AFAC /* ProviderScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DCE1FB3BB440000AFAC /* ProviderScheduleViewController.swift */; };
+		92A31DD41FB3BBA20000AFAC /* ProviderPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DD31FB3BBA20000AFAC /* ProviderPopUpViewController.swift */; };
+		92A31DD61FB3BBA90000AFAC /* ProviderPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DD51FB3BBA90000AFAC /* ProviderPopUpView.swift */; };
+		92A31DD81FB3BBB30000AFAC /* CalendarPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DD71FB3BBB30000AFAC /* CalendarPopUpViewController.swift */; };
+		92A31DDA1FB3BBBB0000AFAC /* CalendarPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DD91FB3BBBB0000AFAC /* CalendarPopUpView.swift */; };
+		92A31DDF1FB3BBE70000AFAC /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DDE1FB3BBE70000AFAC /* EventCollectionViewCell.swift */; };
+		92A31DE11FB3BBEC0000AFAC /* EditableEventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DE01FB3BBEC0000AFAC /* EditableEventCollectionViewCell.swift */; };
+		92A31DE41FB3BBF90000AFAC /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DE31FB3BBF90000AFAC /* DateCollectionViewCell.swift */; };
+		92A31DE61FB3BC0C0000AFAC /* ScheduleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DE51FB3BC0C0000AFAC /* ScheduleCollectionViewCell.swift */; };
+		92A31DE81FB3BC120000AFAC /* HourUnitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DE71FB3BC120000AFAC /* HourUnitCollectionViewCell.swift */; };
+		92A31DEA1FB3BC190000AFAC /* ScheduleCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A31DE91FB3BC190000AFAC /* ScheduleCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		92A31DB51FB3BA5D0000AFAC /* VantageCalendarClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VantageCalendarClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A31DB81FB3BA5D0000AFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92A31DBA1FB3BA5D0000AFAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92A31DBD1FB3BA5D0000AFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92A31DBF1FB3BA5D0000AFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A31DC21FB3BA5D0000AFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A31DC41FB3BA5D0000AFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A31DCB1FB3BB270000AFAC /* SchedulingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulingViewController.swift; sourceTree = "<group>"; };
+		92A31DCE1FB3BB440000AFAC /* ProviderScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderScheduleViewController.swift; sourceTree = "<group>"; };
+		92A31DD31FB3BBA20000AFAC /* ProviderPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderPopUpViewController.swift; sourceTree = "<group>"; };
+		92A31DD51FB3BBA90000AFAC /* ProviderPopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderPopUpView.swift; sourceTree = "<group>"; };
+		92A31DD71FB3BBB30000AFAC /* CalendarPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPopUpViewController.swift; sourceTree = "<group>"; };
+		92A31DD91FB3BBBB0000AFAC /* CalendarPopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPopUpView.swift; sourceTree = "<group>"; };
+		92A31DDE1FB3BBE70000AFAC /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		92A31DE01FB3BBEC0000AFAC /* EditableEventCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableEventCollectionViewCell.swift; sourceTree = "<group>"; };
+		92A31DE31FB3BBF90000AFAC /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		92A31DE51FB3BC0C0000AFAC /* ScheduleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCollectionViewCell.swift; sourceTree = "<group>"; };
+		92A31DE71FB3BC120000AFAC /* HourUnitCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourUnitCollectionViewCell.swift; sourceTree = "<group>"; };
+		92A31DE91FB3BC190000AFAC /* ScheduleCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,96 @@
 		92A31DB71FB3BA5D0000AFAC /* VantageCalendarClone */ = {
 			isa = PBXGroup;
 			children = (
+				92A31DCA1FB3BB070000AFAC /* Calendar */,
 				92A31DB81FB3BA5D0000AFAC /* AppDelegate.swift */,
-				92A31DBA1FB3BA5D0000AFAC /* ViewController.swift */,
-				92A31DBC1FB3BA5D0000AFAC /* Main.storyboard */,
 				92A31DBF1FB3BA5D0000AFAC /* Assets.xcassets */,
 				92A31DC11FB3BA5D0000AFAC /* LaunchScreen.storyboard */,
 				92A31DC41FB3BA5D0000AFAC /* Info.plist */,
 			);
 			path = VantageCalendarClone;
+			sourceTree = "<group>";
+		};
+		92A31DCA1FB3BB070000AFAC /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				92A31DDB1FB3BBC70000AFAC /* Collection */,
+				92A31DD11FB3BB840000AFAC /* Pop Up */,
+				92A31DD01FB3BB570000AFAC /* View Controller */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		92A31DCD1FB3BB340000AFAC /* Provider Scheduling */ = {
+			isa = PBXGroup;
+			children = (
+				92A31DCE1FB3BB440000AFAC /* ProviderScheduleViewController.swift */,
+			);
+			path = "Provider Scheduling";
+			sourceTree = "<group>";
+		};
+		92A31DD01FB3BB570000AFAC /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92A31DCB1FB3BB270000AFAC /* SchedulingViewController.swift */,
+				92A31DCD1FB3BB340000AFAC /* Provider Scheduling */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		92A31DD11FB3BB840000AFAC /* Pop Up */ = {
+			isa = PBXGroup;
+			children = (
+				92A31DD21FB3BB940000AFAC /* Provider */,
+				92A31DD71FB3BBB30000AFAC /* CalendarPopUpViewController.swift */,
+				92A31DD91FB3BBBB0000AFAC /* CalendarPopUpView.swift */,
+			);
+			path = "Pop Up";
+			sourceTree = "<group>";
+		};
+		92A31DD21FB3BB940000AFAC /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				92A31DD51FB3BBA90000AFAC /* ProviderPopUpView.swift */,
+				92A31DD31FB3BBA20000AFAC /* ProviderPopUpViewController.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		92A31DDB1FB3BBC70000AFAC /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				92A31DDC1FB3BBD10000AFAC /* Cells */,
+				92A31DE91FB3BC190000AFAC /* ScheduleCollectionViewLayout.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		92A31DDC1FB3BBD10000AFAC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				92A31DE21FB3BBF00000AFAC /* Date Cells */,
+				92A31DDD1FB3BBDE0000AFAC /* Event Cells */,
+				92A31DE51FB3BC0C0000AFAC /* ScheduleCollectionViewCell.swift */,
+				92A31DE71FB3BC120000AFAC /* HourUnitCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		92A31DDD1FB3BBDE0000AFAC /* Event Cells */ = {
+			isa = PBXGroup;
+			children = (
+				92A31DDE1FB3BBE70000AFAC /* EventCollectionViewCell.swift */,
+				92A31DE01FB3BBEC0000AFAC /* EditableEventCollectionViewCell.swift */,
+			);
+			path = "Event Cells";
+			sourceTree = "<group>";
+		};
+		92A31DE21FB3BBF00000AFAC /* Date Cells */ = {
+			isa = PBXGroup;
+			children = (
+				92A31DE31FB3BBF90000AFAC /* DateCollectionViewCell.swift */,
+			);
+			path = "Date Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +227,6 @@
 			files = (
 				92A31DC31FB3BA5D0000AFAC /* LaunchScreen.storyboard in Resources */,
 				92A31DC01FB3BA5D0000AFAC /* Assets.xcassets in Resources */,
-				92A31DBE1FB3BA5D0000AFAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +237,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A31DBB1FB3BA5D0000AFAC /* ViewController.swift in Sources */,
+				92A31DCF1FB3BB440000AFAC /* ProviderScheduleViewController.swift in Sources */,
+				92A31DDF1FB3BBE70000AFAC /* EventCollectionViewCell.swift in Sources */,
+				92A31DE11FB3BBEC0000AFAC /* EditableEventCollectionViewCell.swift in Sources */,
+				92A31DE61FB3BC0C0000AFAC /* ScheduleCollectionViewCell.swift in Sources */,
+				92A31DEA1FB3BC190000AFAC /* ScheduleCollectionViewLayout.swift in Sources */,
+				92A31DDA1FB3BBBB0000AFAC /* CalendarPopUpView.swift in Sources */,
+				92A31DE41FB3BBF90000AFAC /* DateCollectionViewCell.swift in Sources */,
+				92A31DD81FB3BBB30000AFAC /* CalendarPopUpViewController.swift in Sources */,
+				92A31DCC1FB3BB270000AFAC /* SchedulingViewController.swift in Sources */,
+				92A31DE81FB3BC120000AFAC /* HourUnitCollectionViewCell.swift in Sources */,
+				92A31DD41FB3BBA20000AFAC /* ProviderPopUpViewController.swift in Sources */,
 				92A31DB91FB3BA5D0000AFAC /* AppDelegate.swift in Sources */,
+				92A31DD61FB3BBA90000AFAC /* ProviderPopUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92A31DBC1FB3BA5D0000AFAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92A31DBD1FB3BA5D0000AFAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		92A31DC11FB3BA5D0000AFAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
